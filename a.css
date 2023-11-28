@@ -1,0 +1,89 @@
+body {
+    background: #fafafa;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#offcanvasExample {
+    background: #dda491;
+}
+
+.sidebar-header{
+   height: 70px;
+   background: #e55f32;
+}
+
+.list-option a{
+   color: white;
+   height: 50px;
+   text-decoration: none;
+   border-bottom: 1px solid white;
+   padding-left: 20px;
+}
+.list-option a:hover{
+    color: white;
+ }
+   .list-option a.active{
+      color: red;
+   }
+.content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+}
+#content-info-home{
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+}
+
+.info-home{
+    height: 100px;
+}
+.button-menu{
+    background-color: #dda491 !important;
+}
+#header-store-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.info-store-header{
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* test */
+.list-menu {
+    margin-top: 70px;
+}
+
+.title-list-menu,
+.content-list-menu {
+    width: 100%;
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.col-1,
+.col-3,
+.col-2 {
+    display: table-cell;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd; /* Optional: Add border for better visibility */
+}
+
+.title-list-menu .list-top {
+    font-weight: bold;
+    background-color: #f2f2f2; /* Optional: Add background color for header row */
+}

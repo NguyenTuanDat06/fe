@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 250px;">
+        <div class="offcanvas-header">
+          <img style="width: 150px;" src="https://shopeefood.vn/app/assets/img/shopeefoodvn.png?4aa1a38e8da801f4029b80734905f3f7" alt="">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled list-option col">
+                <li>
+                    <a href="a.html" class="d-flex align-items-center active">Trang Chủ</a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex align-items-center">Thông Tin Cửa Hàng</a>
+                </li>
+                <li>
+                    <a href="#listHomeMenu" data-bs-toggle="collapse" aria-bs-expanded="false" class="dropdown-toggle d-flex align-items-center">Menu</a>
+                    <ul class="collapse list-unstyled" id="listHomeMenu">
+                        <li>
+                            <a href="listdanhsach.html" class="d-flex align-items-center">Danh Sách Menu</a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center">Thêm Menu</a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center">Chỉnh Sửa Menu</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#listFoodMenu" data-bs-toggle="collapse" aria-bs-expanded="false" class="dropdown-toggle d-flex align-items-center">Food</a>
+                    <ul class="collapse list-unstyled" id="listFoodMenu">
+                        <li>
+                            <a href="listfood.html" class="d-flex align-items-center">Danh Sách Thức Ăn</a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center">Thêm Thức Ăn</a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center">Chỉnh Sửa Thức Ăn</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="d-flex align-items-center">Tham Gia Bộ Sưu Tập</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <button class="btn button-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class="store-header d-flex align-items-center">
+                <div class="info-store-header d-none d-xxl-block">
+                    <img id="header-store-img" src="https://images.foody.vn/res/g116/1155652/prof/s640x400/foody-upload-api-foody-mobile-im-6522b18f-221112225428.jpeg" alt="">
+                    <span id="header-store-name" style="font-weight: 600;">Bánh Mì Huỳnh Hoa</span>
+                </div>
+                <div class="info-store-header d-block d-xxl-none">
+                    <img id="header-store-img" src="https://images.foody.vn/res/g116/1155652/prof/s640x400/foody-upload-api-foody-mobile-im-6522b18f-221112225428.jpeg" alt="">
+                </div>
+                <div class="stoer-logout">
+                    <a href="#" class="btn btn-outline-danger text-black ms-2" style="font-size: 14px;">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="main-content" style="margin-top: 70px;">
+        <div class="container">
+            <div class="title" style="text-align: center;">
+                <h1 class="m-0">Thêm Menu</h1>
+            </div>
+        </div>
+      </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
