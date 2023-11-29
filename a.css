@@ -64,26 +64,11 @@ body {
     margin-top: 70px;
 }
 
-.title-list-menu,
-.content-list-menu {
-    width: 100%;
-    display: table;
-}
+@media screen and (max-width : 768px) {
+    #list-food{
+        max-width: 100% !important;
+        overflow-x: scroll !important;
+        display: block;
 
-.row {
-    display: table-row;
-}
-
-.col-1,
-.col-3,
-.col-2 {
-    display: table-cell;
-    text-align: center;
-    padding: 8px;
-    border: 1px solid #ddd; /* Optional: Add border for better visibility */
-}
-
-.title-list-menu .list-top {
-    font-weight: bold;
-    background-color: #f2f2f2; /* Optional: Add background color for header row */
+    }
 }
